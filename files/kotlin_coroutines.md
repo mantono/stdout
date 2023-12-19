@@ -70,6 +70,12 @@ When dealing with launch and async, developers must take extra caution so as not
 
 Lastly, an essential thing to note is that in Kotlin (and also in Java), a function can still be asynchronous without being a suspending function. A good example is using Java's Future. While futures facilitate producing values asynchronously, they do not suspend their execution which contributes to blocking threads and resulting in potential race conditions. Making something not suspend does not keep you safe from race condition - it still depends on how you handle the asynchronous execution.
 
+## Sumamry
+- A function being a suspend function does not imply parallelism, but it does enable concurrency
+- If `runBlocking` is used, concurrency is not possible, not even in suspend functions
+- A function can be asynchronous, or execute parts of its requests asynchronously, regardless of it being a suspend function or not
+- Usage of `launch` and `async` requires extra care, in order to not introduce the risk of race conditions 
+
 In conclusion, asynchronous programming in Kotlin through the use of coroutines, suspending functions and the other mechanisms discussed, while a powerful tool, needs to be used carefully and correctly to avoid potential race conditions and other common pitfalls. Ensuring a clear understanding of concurrency and parallelism is crucial.
 
 Remember, performance is good, but not at the cost of correctness.
