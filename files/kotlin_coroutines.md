@@ -82,7 +82,7 @@ Remember, performance is good, but not at the cost of correctness.
 
 ## Additional Resources
 
-- [Coroutines basics] (https://kotlinlang.org/docs/coroutines-basics.html) 
+- [Coroutines basics](https://kotlinlang.org/docs/coroutines-basics.html) 
 - [KotlinConf 2017 - Introduction to Coroutines by Roman Elizarov](https://www.youtube.com/watch?v=_hfBv0a09Jc&t=1094s)
 - [KotlinConf 2018 - Kotlin Coroutines in Practice by Roman Elizarov](https://www.youtube.com/watch?v=a3agLJQ6vt8)
 - [Blocking threads, suspending coroutines](https://elizarov.medium.com/blocking-threads-suspending-coroutines-d33e11bf4761)
