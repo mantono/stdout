@@ -61,8 +61,8 @@ While this function comes in handy in specific cases, it should generally not be
 ## Coroutine Builders: launch and async
 
 In the Kotlin Coroutines API, we've got two primary coroutine builders, launch and async.
-- `launch`: This function returns a Job that can be used to cancel the running coroutine. The principle application is for fire-and-forget tasks, meaning it doesn’t return anything after the operation has executed.
-- `async`: This function returns a Deferred, a future promise of a value. async is ideal when there is a need to fetch a result from the coroutine that may be needed later.
+- `launch`: This function returns a `Job` that can be used to cancel the running coroutine. The principle application is for fire-and-forget tasks, meaning it doesn’t return anything after the operation has executed, except for the Job that can indicate if the execution resulted in an exception or completed as expected
+- `async`: This function returns a `Deferred<T>`, a future promise of a value. async is ideal when there is a need to fetch a result from the coroutine that will be needed later
 
 When dealing with launch and async, developers must take extra caution so as not to introduce race conditions in their code. It's also essential to ensure appropriate exception handling and coroutine cancelation for launch and async respectively.
 
