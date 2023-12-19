@@ -9,7 +9,7 @@ An important aspect of programming, especially in a multi-threaded environment, 
 ### Defining Concurrency and Parallelism
 Concurrency implies dealing with multiple tasks at the same time but not necessarily executing them simultaneously. 
 
-Imagine you're organising a party and there are multiple tasks to handle: cooking, decorating, and creating a playlist. As the sole organiser, you switch between these tasks, say, setting the oven to preheat (cooking), then while it's heating, you pick out some party decorations (decorating), and in the meantime while you’re waiting for the delivery, you search for some songs to play (creating playlist). You're working on all tasks but not truly at the same moment - you are context-switching between different tasks which are part of a single larger task (organising a party). This is an example of _concurrency_.
+Imagine you're organising a party and there are multiple tasks to handle: cooking, decorating, and creating a playlist. As the sole organiser, you switch between these tasks, say, setting the oven to preheat (cooking), then while it's heating, you pick out some party decorations (decorating), and in the meantime while you’re waiting for the over the heap up, you search for some songs to play (creating playlist). You're working on all tasks but not truly at the same moment - you are context-switching between different tasks which are part of a single larger task (organising a party). This is an example of _concurrency_.
 
 Now, say you invite three friends over and assign them each a task: one cooks, one decorates, and one creates the playlist. Now all tasks are being done at the same time by different people. This is _parallelism_.
 
