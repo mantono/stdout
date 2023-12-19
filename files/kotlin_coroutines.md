@@ -79,3 +79,9 @@ Lastly, an essential thing to note is that in Kotlin (and also in Java), a funct
 In conclusion, asynchronous programming in Kotlin through the use of coroutines, suspending functions and the other mechanisms discussed, while a powerful tool, needs to be used carefully and correctly to avoid potential race conditions and other common pitfalls. Ensuring a clear understanding of concurrency and parallelism is crucial.
 
 Remember, performance is good, but not at the cost of correctness.
+
+## Additional Resources
+- [KotlinConf 2017 - Introduction to Coroutines by Roman Elizarov](https://www.youtube.com/watch?v=_hfBv0a09Jc&t=1094s)
+- [KotlinConf 2018 - Kotlin Coroutines in Practice by Roman Elizarov](https://www.youtube.com/watch?v=a3agLJQ6vt8)
+- [Blocking threads, suspending coroutines](https://elizarov.medium.com/blocking-threads-suspending-coroutines-d33e11bf4761)
+- [Explicit concurrency](https://elizarov.medium.com/explicit-concurrency-67a8e8fd9b25)
