@@ -1,6 +1,6 @@
 # Important Things That I Need To Remind Myself Of
 #### If it is important, write it down
-Communicating important information which you has, purely verbally, means that everyone has forgotten everything by tomorrow, and every time someone else needs to acquire the same information they have to come to you.
+Communicating important information which you possess, purely verbally, means that everyone has forgotten everything by tomorrow, and every time someone else needs to acquire the same information they have to come to you.
 
 #### Perfect is the enemy of good
 We all want perfect, but we will never achieve perfection (or even agree what "perfect" is). Instead...
